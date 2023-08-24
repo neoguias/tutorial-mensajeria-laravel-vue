@@ -1,0 +1,25 @@
+@import '@alamtheinnov/flashtoast/dist/flashtoast.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#sidebar ul li a {
+    padding: 1rem;
+    font-size: 1.1em;
+    display: block;  
+    color: #fff;
+}
+
+#sidebar ul li a:hover {
+    cursor:pointer;
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li a.router-link-exact-active {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+
